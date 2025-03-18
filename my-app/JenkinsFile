@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/VINAYAK29997/expt-5.git'
+                git branch: 'main', url: 'https://github.com/scammer1650/expt-5.git'
             }
         }
         stage('Build') {
